@@ -1,0 +1,35 @@
+No0 ; callback1 ; sys nawadniania
+No1 ; callback2 ; wybierz tryb
+	No1.1 ; callback3 ; automatyczny
+		No1.1.1 ; callback4 ; wybr auto
+	No1.2 ; callback5 ; manualny
+		No1.2.1 ; callback6 ; wybor strefy
+			No1.2.1.1 ; callback7 ; wlacz strefe
+				No1.2.1.1.1 ; callback8 ; strefa dziala	$
+			No1.2.1.2 ; callback9 ; wylacz strefe
+				No1.2.1.2.1 ; callback10 ; strefa wylaczona	$
+No2 ; callback11 ; Konf stref
+	No2.1 ; callback12 ; Wybor strefy
+		No2.1.1 ; callback13 ; ON/OFF
+			No2.1.1.1 ; callback14 ; Wlacz strefe
+				No2.1.1.1.1 ; callback15 ; Strefa wlaczona	$
+			No2.1.1.2 ; callback16 ; wylacz strefe
+				No2.1.1.2.1 ; callback17 ; strefa wylaczona	$
+		No2.1.2 ; callback18 ; Czas działania
+			No2.1.2.1 ; callback19 ; Godzina start	#
+			No2.1.2.2 ; callback20 ; minuta start	#
+			No2.1.2.3 ; callback21 ; godzina stop	#
+			No2.1.2.4 ; callback22 ; minuta stop;	#
+			No2.1.2.5 ; callback23 ; zapisano	$
+No3 ; callback24 ; Konf daty
+	No3.1 ; callback25 ; Ustaw godziny	#
+	No3.2 ; callback26 ; Ustaw minuty	#
+	No3.3 ; callback27 ; Ustaw dzien	#
+	No3.4 ; callback28 ; Ustaw miesiac	#
+	No3.5 ; callback29 ; Ustaw rok	#
+	No3.6 ; callback30 ; zapisano	$
+No4 ; callback25 ; Version
+	No4.1 ; callback26 ; display version
+No5 ; callback27 ; Autor
+	No5.1 ; callback28 ; display autor
+!
